@@ -1,16 +1,14 @@
-.About_page{
+.AboutPage{
     width: 100%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .p-gnwrimia{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     font-weight: bold;
-    float:right;
 }
 
 .p-ergaleia{
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1em;
 }

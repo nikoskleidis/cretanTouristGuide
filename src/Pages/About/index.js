@@ -1,12 +1,10 @@
 import React from "react";
-//import photo from "./photo.png";//
 import "./styles.css"
-//console.log(photo);//
 
 
-function About_page() {
+function AboutPage() {
   return (
-    <div className={"About_page"}>
+    <div className={"AboutPage"}>
       <div class="p-gnwrimia">
         <p>Ονομάζομαι Βογιατζής Γεώργιος και η πτυχιακή μου εργασία αφορά  έναν πλήρη τουριστικό οδηγό της Κρήτης</p>
       </div>
@@ -24,4 +22,4 @@ function About_page() {
   
 }
 
-export default About_page
+export default AboutPage
