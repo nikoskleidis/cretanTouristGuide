@@ -1,4 +1,14 @@
-.About_wrapper {
+.AboutPage{
     width: 100%;
-    background-color: #61dafb;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.p-gnwrimia{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.p-ergaleia{
+    font-size: 1em;
 }
