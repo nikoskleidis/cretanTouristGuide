@@ -20,9 +20,9 @@ function AboutPage() {
           </div>
           <div class="bottom-erg">
             <ul>
-            <a  href="https://code.visualstudio.com//"><li>Vs Code(Visual Studio Code)</li></a>  
-            <a  href="https://reactjs.org/docs/getting-started.html"><li>React</li></a>  
-            <a  href="https://reacttraining.com/react-router"><li>React-router</li></a> 
+              <a  href="https://code.visualstudio.com//"><li>Vs Code(Visual Studio Code)</li></a>  
+              <a  href="https://reactjs.org/docs/getting-started.html"><li>React</li></a>  
+              <a  href="https://reacttraining.com/react-router"><li>React-router</li></a> 
           </ul>
           </div>
         </div>
