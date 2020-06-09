@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nav menu{
+  display: inline;
+  background-color: teal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.nav menu li:hover{
+  color:white;
+}

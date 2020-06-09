@@ -8,16 +8,10 @@ function App() {
     <Router>
       <div>
         <nav>
-          <ul>
-            <li>
+          <ul class="menu">
               <Link to="/">Home</Link>
-            </li>
-            <li>
               <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
+             <Link to="/users">Users</Link>
           </ul>
         </nav>
 
