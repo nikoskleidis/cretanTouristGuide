@@ -1,14 +1,65 @@
 .AboutPage{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
 
 
-.p-gnwrimia{
+.top{
+    display: inline-flex;
+    display: flex;
+    align-items: center;
+    background-color: white;
     font-size: 1.5em;
     font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px 5px #bbb;
+    padding-left: 100px;
+    padding-bottom: 30px;
 }
 
-.p-ergaleia{
+.strong-n{
+    color:red;
+}
+
+.bottom{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.botPhoto{
+    width: 100%;
+    opacity: 0.5;
+}
+.bottom-p{
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+}
+
+.bottom-erg{
+    text-align: left;
+    margin-left:10px ;
+}
+
+
+ .menu{
+    background-color: rgb(250, 14, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+
+.menu a{
+    margin-left: 80px;
+} 
+.menu a:hover{
+    color:white;
 }
