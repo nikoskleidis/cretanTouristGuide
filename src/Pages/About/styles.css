@@ -8,11 +8,15 @@
 
 .top{
     display: inline-flex;
+    display: flex;
+    align-items: center;
     background-color: white;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     text-shadow: 4px 4px 5px #bbb;
+    padding-left: 100px;
+    padding-bottom: 30px;
 }
 
 .strong-n{
@@ -20,39 +24,36 @@
 }
 
 .bottom{
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .botPhoto{
-    margin-left: 100px;
-    width: 80%;
-    opacity: 0.6;
+    width: 100%;
+    opacity: 0.5;
 }
 .bottom-p{
     position: absolute;
-    top: 110%;
-    left: 180px;
+    bottom: 20%;
+    padding-left: 10px;
 }
 
 .bottom-erg{
-    position: absolute;
-    margin-left: 150px;
-    padding-top: 20p;
     text-align: left;
-    top: 120%;
+    margin-left:10px ;
 }
 
 
  .menu{
-    background-color: rgb(3, 3, 65);
+    background-color: rgb(250, 14, 14);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
+    margin-top: 0px;
 }
 
 
