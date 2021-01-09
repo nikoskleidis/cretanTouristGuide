@@ -13,9 +13,9 @@ function AboutPage() {
 
       <div className="bottom">
         <img src={rethymno} class="botPhoto" alt="rethymno"/>
-        <div class="bottom-p">
-          <p>Τα εργαλεια που θα χρησιποποιήσω για την διεκπεραίωσή της πτυχιακής εργασίας είναι τα εξής:</p>
-          <div class="bottom-erg">
+        <div className="bottom-p">
+          <p>Τα εργαλεια που θα χρησιποποιήσω για την διεκπεραίωση της πτυχιακής εργασίας είναι τα εξής:</p>
+          <div className="bottom-erg">
             <ul>
               <a  href="https://code.visualstudio.com//"><li>Vs Code(Visual Studio Code)</li></a>  
               <a  href="https://reactjs.org/docs/getting-started.html"><li>React</li></a>  

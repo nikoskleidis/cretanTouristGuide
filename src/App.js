@@ -2,14 +2,15 @@ import React from "react"
 import "./App.css"
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom"
 import About from "./Pages/About"
+import Home from "./Pages/Home/home"
 
 function App() {
   return (
     <Router>
       <div>
         <nav>
-          <ul class="menu">
-              <Link to="/">Home</Link>
+          <ul className="menu">
+              <Link to="/home">Home</Link>
               <Link to="/about">About</Link>
              <Link to="/users">Users</Link>
           </ul>
@@ -24,7 +25,7 @@ function App() {
           <Route path="/users">
             <Users />
           </Route>
-          <Route path="/">
+          <Route path="/home">
             <Home />
           </Route>
         </Switch>
@@ -35,9 +36,6 @@ function App() {
 
 export default App
 
-function Home() {
-  return <h2>Home</h2>
-}
 
 function Users() {
   return <h2>Users</h2>
