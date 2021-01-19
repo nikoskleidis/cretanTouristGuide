@@ -1,20 +1,58 @@
+.marker {
+    position: relative;
+}
+
 .marker__balloon {
     width: 200px;
     padding: 20px;
     background-color: white;
     cursor: pointer;
-    position:relative;
-    
+    position:absolute;
+    top: calc(100% + 5px);
+    left: -8px;
+    z-index: 1;
+    border: 4px solid #00bfb6;
 }
+
+.marker__balloon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #00bfb6;
+    left: 10px;
+    top: -23px;
+}
+
+.marker__balloon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 10px;
+    top: -18px;
+}
+
 .marker_ballonName{
     color:black;
     padding-bottom: 10px;
     font-size: 15px;
     text-shadow:4px 4px 10px rgb(151, 142, 142);
-    
+
 }
 .marker_ballonName:hover{
     color:blue;
+}
+
+.marker_link_wrapper a {
+    margin-left: 2px;
 }
 
 

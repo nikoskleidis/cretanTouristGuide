@@ -14,15 +14,22 @@ const MARKER_ICONS = {
 
 const Balloon = ({ marker }) => (
   <div className="marker__balloon">
-    <div className="marker_ballonName"><strong>{marker.name}</strong></div>
+    <div className="marker_ballonName">
+      <strong>{marker.name}</strong>
+    </div>
     <div className="marker_ballobDesc">{marker.desc}</div>
-    <div>{marker.link}</div>
+    <div className="marker_link_wrapper">
+      Για περισσοτερες πληροφοριες
+      <a href={marker.link} target="_blank">
+        πατήστε εδω
+      </a>
+    </div>
   </div>
 )
 
 const Marker = ({ marker, showBalloon }) => {
   return (
-    <div>
+    <div className="marker">
       <img src={MARKER_ICONS[marker.type]} alt={marker.name} />
       {showBalloon && <Balloon marker={marker} />}
     </div>
