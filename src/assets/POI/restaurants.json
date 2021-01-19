@@ -1,12 +1,114 @@
 [
   {
     "id": 1,
-    "lat": 35.33341905126549,
-    "lng": 25.13074022878017,
+    "lat":  35.340361491312564, 
+    "lng":  25.132479624677348,
     "type": "RESTAURANT",
-    "name": "Παλάτι Κνωσσού",
-    "desc": "Το παλάτι της Κνωσσού...",
-    "address": "Κνωσσός",
-    "city": "HER"
+    "name": "Πεσκέσι",
+    "desc": "Εστιατόριο-Κρητική Κουζίνα",
+    "address": "Καπετάν Χαραλάμπη 6-8",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://peskesicrete.gr/el/"
+  },
+  {
+    "id":   2,
+    "lat":  35.3406292757642,
+    "lng":  25.135429868856228,
+    "type": "RESTAURANT",
+    "name": "Kouzeineri",
+    "desc": "Steak House Reastaurant",
+    "address": "Αγίου τίτου, Ευρώπης",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://kouzeineri.com/"
+  },
+  {
+    "id": 3,
+    "lat": 35.33998246991741, 
+    "lng": 25.132809984199312,
+    "type": "RESTAURANT",
+    "name": "Beer o'clock",
+    "desc": "Burger",
+    "address": "Παρ. Μινώταυρου",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://www.beeroclock.gr/"
+  },
+  {
+    "id": 4,
+    "lat": 35.34287131470018, 
+    "lng": 25.134176677118486,
+    "type": "RESTAURANT",
+    "name": "Ιππόκαμπος",
+    "desc": "Ψαροταβέρνα-Ουζερί ",
+    "address": "Λεωφ. Σοφοκλή Βενιζέλου 3",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://www.facebook.com/IppokamposSeafood/"
+  },
+  {
+    "id": 5,
+    "lat": 35.34164675262451, 
+    "lng": 25.13102356878166,
+    "type": "RESTAURANT",
+    "name": "Η ΑΥΛΗ ΤΟΥ ΔΕΥΚΑΛΙΩΝΑ",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Π. Πρεβελάκη 10",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://www.facebook.com/pages/category/Diner/%CE%97-%CE%91%CF%85%CE%BB%CE%B7-%CF%84%CE%BF%CF%85-%CE%94%CE%B5%CF%85%CE%BA%CE%B1%CE%BB%CE%B9%CF%89%CE%BD%CE%B1-1390122911316365/"
+  },
+  {
+    "id": 6,
+    "lat": 35.34146875079415, 
+    "lng": 25.131789368796927,
+    "type": "RESTAURANT",
+    "name": "Λυχνοστάτης",
+    "desc": "Ελληνικό Εστιατόριο-Μεζεδοπωλείο",
+    "address": "Γιάννη Χρονάκη 8",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://el-gr.facebook.com/lychnostatis.cretan.cuisine/"
+  },
+  {
+    "id": 7,
+    "lat": 35.33971765244102, 
+    "lng": 25.133033352587702,
+    "type": "RESTAURANT",
+    "name": "Via Pastarella",
+    "desc": "Ιταλικό Εστιατόριο",
+    "address": "Καντανολέοντος 2",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://viapastarella.gr/"
+  },
+  {
+    "id": 8,
+    "lat": 35.33892144954797, 
+    "lng": 25.132746279415827,
+    "type": "RESTAURANT",
+    "name": "Chop Chop",
+    "desc": "Ψητοπωλείο-Μπριζολάδικο",
+    "address": "Ίδης 6",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://el-gr.facebook.com/pages/category/Barbecue-Restaurant/Chop-Chop-1727860184189520/"
+
+  },
+  {
+    "id": 9,
+    "lat": 35.339839944331125, 
+    "lng": 25.135240626403068,
+    "type": "RESTAURANT",
+    "name": "Το Ροβύθι",
+    "desc": "Υγιεινό φαγητό με αγνά προϊόντα οικολογικής γεωργίας και ηθικού εμπορίου.",
+    "address": "Μεραμβέλλου 9, Ηράκλειο 712 02",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://el-gr.facebook.com/rovithaki"
+  },
+  {
+    "id": 10,
+    "lat": 35.33905445643916,
+    "lng": 25.135943856045742,
+    "type": "RESTAURANT",
+    "name": "Τυράκι",
+    "desc": "Σαντουιτσάδικο.",
+    "address": "Μιλάτου 29",
+    "city": "HER",
+    "link": "Για περισσότερες πληροφορίες: https://el-gr.facebook.com/%CE%A4%CF%85%CF%81%CE%B1%CE%BA%CE%B9-1636128353274791/"
   }
 ]
+

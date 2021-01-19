@@ -2,16 +2,21 @@ import React from "react"
 import "./styles.css"
 import cultureMarker from "../../../assets/markers/culture.png"
 import restaurantMarker from "../../../assets/markers/restaurant.png"
+import barMarker from "../../../assets/markers/bar.png"
+import coffeeMarker from "../../../assets/markers/coffee.png"
 
 const MARKER_ICONS = {
   CULTURE: cultureMarker,
-  RESTAURANT: restaurantMarker
+  RESTAURANT: restaurantMarker,
+  BARS: barMarker,
+  COFFEE: coffeeMarker
 }
 
 const Balloon = ({ marker }) => (
   <div className="marker__balloon">
-    <div>{marker.name}</div>
-    <div>{marker.desc}</div>
+    <div className="marker_ballonName"><strong>{marker.name}</strong></div>
+    <div className="marker_ballobDesc">{marker.desc}</div>
+    <div>{marker.link}</div>
   </div>
 )
 
