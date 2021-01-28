@@ -7,11 +7,12 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "google-map-react": "^2.1.9",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "react-select": "^3.2.0"
+    "react-select": "^3.2.0",
+    "select": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

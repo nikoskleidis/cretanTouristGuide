@@ -95,7 +95,7 @@
     "type": "RESTAURANT",
     "name": "Το Ροβύθι",
     "desc": "Υγιεινό φαγητό με αγνά προϊόντα οικολογικής γεωργίας και ηθικού εμπορίου.",
-    "address": "Μεραμβέλλου 9, Ηράκλειο 712 02",
+    "address": "Μεραμβέλλου 9",
     "city": "HER",
     "link": "https://el-gr.facebook.com/rovithaki"
   },
@@ -109,6 +109,117 @@
     "address": "Μιλάτου 29",
     "city": "HER",
     "link": "https://el-gr.facebook.com/%CE%A4%CF%85%CF%81%CE%B1%CE%BA%CE%B9-1636128353274791/"
+  },
+  {
+    "id": 11,
+    "lat":  35.372259351268106, 
+    "lng": 24.474062140021324,
+    "type": "RESTAURANT",
+    "name": "Το Φουρνάκι",
+    "desc": "Ιταλικο Εστιατόριο",
+    "address": "Λεωφ. Εμμανουήλ Κεφαλογιάννη 18",
+    "city": "RETH",
+    "link": "https://peskesicrete.gr/el/"
+  },
+  {
+    "id":   12,
+    "lat":  35.36599336534342, 
+    "lng": 24.517274141871557,
+    "type": "RESTAURANT",
+    "name": "Ταβέρνα του Ζήση",
+    "desc": "Ταβέρνα",
+    "address": "Λεωφ. Μάχης Κρήτης 63",
+    "city": "RETH",
+    "link": "https://www.taverna-zisis.gr/elliniki-kouzina/"
+  },
+  {
+    "id": 13,
+    "lat": 35.37220525776804, 
+    "lng": 24.473604301393642,
+    "type": "RESTAURANT",
+    "name": "Θαλασσογραφία",
+    "desc": "Εστιατόριο",
+    "address": "ΚΕΦΑΛΟΓΙΑΝΝΗΔΩΝ 33",
+    "city": "RETH",
+    "link": "https://www.thalassographia.gr/#eluid0efaa466"
+  },
+  {
+    "id": 14,
+    "lat": 35.36704310833941, 
+    "lng": 24.490426540021165,
+    "type": "RESTAURANT",
+    "name": "Hercules",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Σοφοκλή Βενιζέλου και Πανεπιστημίου 72",
+    "city": "RETH",
+    "link": "https://www.facebook.com/HerculesRestaurantRethimno/"
+  },
+  {
+    "id": 15,
+    "lat": 35.37219116098917, 
+    "lng": 24.473902840021285,
+    "type": "RESTAURANT",
+    "name": "Εν πλω",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Εμμανουήλ, Λεωφ. Εμμανουήλ Κεφαλογιάννη 28",
+    "city": "RETH",
+    "link": "https://www.facebook.com/EnPloRethimno/"
+  },
+  {
+    "id": 16,
+    "lat": 35.370128201316476, 
+    "lng": 24.47595248605043,
+    "type": "RESTAURANT",
+    "name": "Italian",
+    "desc": "Ιταλικό Εστιατόριο",
+    "address": "ΓΑρκαδίου 279, Ρέθυμνο 741 00",
+    "city": "RETH",
+    "link": "https://italianrethymno.gr/"
+  },
+  {
+    "id": 17,
+    "lat": 35.371476695218846, 
+    "lng": 24.47372725536444,
+    "type": "RESTAURANT",
+    "name": "Το Ρηνιώ",
+    "desc": "Εστιατόριο-Μεζεδοπωλείο",
+    "address": "Χειμάρρας 10",
+    "city": "RETH",
+    "link": "https://www.facebook.com/Rinio.Mezedopoleio?_rdc=1&_rdr"
+  },
+  {
+    "id": 18,
+    "lat": 35.36984071562533, 
+    "lng": 24.474585562251207,
+    "type": "RESTAURANT",
+    "name": "Μπακαλόγατος",
+    "desc": "Εστιατόριο-Μεζεδοπωλείο",
+    "address": "Πλατεία Τίτου Πετυχάκη",
+    "city": "RETH",
+    "link": "https://m.facebook.com/pages/category/Diner/Mpakalogatos-Rethymno-167091033450828/?locale2=el_GR"
+
+  },
+  {
+    "id": 19,
+    "lat": 35.36946920281652, 
+    "lng": 24.474623540021163,
+    "type": "RESTAURANT",
+    "name": "Τυράκι",
+    "desc": "Υγιεινό φαγητό με αγνά προϊόντα οικολογικής γεωργίας και ηθικού εμπορίου.",
+    "address": "Εμμανουήλ Βερνάδου 5",
+    "city": "RETH",
+    "link": "https://www.facebook.com/%CE%A4%CF%85%CF%81%CE%B1%CE%BA%CE%B9-1636128353274791/"
+  },
+  {
+    "id": 20,
+    "lat": 35.37098271075482, 
+    "lng": 24.47509560879526,
+    "type": "RESTAURANT",
+    "name": "Bar B.Q.",
+    "desc": "Ψητοποωλείο.",
+    "address": "Σαλαμίνος 12",
+    "city": "RETH",
+    "link": "https://www.barbq.gr/menu/"
   }
 ]
 

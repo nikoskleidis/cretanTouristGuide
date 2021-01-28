@@ -10,6 +10,7 @@ import barsPOI from "../../assets/POI/bars.json"
 import coffeesPOI from "../../assets/POI/coffees.json"
 
 import rethPhoto from "../../assets/cities/rethymno.png"
+import HerPhoto from "../../assets/cities/Heraklion.png"
 
 const GOOGLE_MAP_KEY = "AIzaSyCdB68ioVna9Y-IRSRCWZ9UzQ8CAolJXe0"
 
@@ -38,35 +39,44 @@ const cityOptions = [
   { value: "HER", label: "Ηράκλειο" },
   { value: "CHQ", label: "Χανιά" },
   { value: "RETH", label: "Ρεθυμνο" },
-  { value: "LAS", label: "Αγ. Νικόλαος" }
+  { value: "AGN", label: "Αγ. Νικόλαος" }
+]
+
+
+
+const cityPhotos = [
+  { value: "HER", backgroundImage: `url(${HerPhoto})`  },
+  { value: "CHQ", label: "Χανιά" },
+  { value: "RETH", label: "Ρεθυμνο" },
+  { value: "AGN", label: "Αγ. Νικόλαος" }
 ]
 
 const cityLocations = {
   HER: {
     center: {
-      lat: 35.0,
-      lng: 25.0
+      lat: 35.341846,
+      lng: 25.148254
     },
-    zoom: 9
+    zoom: 11
   },
   CHQ: {
     center: {
-      lat: 33.0,
-      lng: 20.0
+      lat: 35.51124,
+      lng: 24.02921
     },
     zoom: 11
   },
   RETH: {
     center: {
-      lat: 31.0,
-      lng: 21.0
+      lat: 35.36687,
+      lng: 24.47487
     },
     zoom: 11
   },
-  LAS: {
+  AGN: {
     center: {
-      lat: 37.0,
-      lng: 23.0
+      lat: 35.19106,
+      lng: 25.71524
     },
     zoom: 11
   },
@@ -83,7 +93,7 @@ const SimpleMap = () => {
   const [markerKeyClicked, setMarkerKeyClicked] = useState()
   const [selectedCity, setSelectedCity] = useState("DEFAULT")
   const [selectedPOI, setSelectedPOI] = useState("DEFAULT")
-
+  const [SelectedPhoto, setSelectedPhoto]= useState("DEFAULT")
   const onChildClickCallback = useCallback((key) => {
     setMarkerKeyClicked(key)
   }, [])
@@ -91,11 +101,13 @@ const SimpleMap = () => {
   const POI = getPOIPlaces(selectedPOI)
   return (
     <div className="homePage" style={{ backgroundImage: `url(${rethPhoto})` }}>
+
       <div className="map__filters">
         <Select
           options={cityOptions}
           onChange={(val) => setSelectedCity(val ? val.value : "DEFAULT")}
           isClearable
+          
         />
         <Select
           options={poiOptions}
