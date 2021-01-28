@@ -1,4 +1,4 @@
-.AboutPage{
+.AboutPage {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -6,7 +6,7 @@
 }
 
 
-.top{
+.top {
     display: inline-flex;
     display: flex;
     align-items: center;
@@ -19,47 +19,51 @@
     padding-bottom: 30px;
 }
 
-.strong-n{
-    color:red;
+.strong-n {
+    color: red;
 }
 
-.bottom{
+.bottom {
     font-size: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
 }
-.botPhoto{
+
+.botPhoto {
     width: 100%;
     opacity: 0.5;
 }
-.bottom-p{
+
+.bottom-p {
     position: absolute;
     bottom: 20%;
     padding-left: 10px;
 }
 
-.bottom-erg{
+.bottom-erg {
     text-align: left;
-    margin-left:10px ;
+    margin-left: 10px;
 }
 
 
- .menu{
+.menu {
     background-color: rgb(250, 14, 14);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
-    margin-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
-.menu a{
+.menu a {
     margin-left: 80px;
-} 
-.menu a:hover{
-    color:white;
+}
+
+.menu a:hover {
+    color: white;
 }

@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "lat": 35.34009052155808, 
+      "lng": 25.133699743721326,
+      "type": "COFFEE",
+      "name": " CENTRAL PARK ",
+      "desc": "Cafe-Restaurant",
+      "address": "Αρκολεων 19, Ηράκλειο 712 02",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: http://www.central-park.gr/en/"
+    },
+    {
+      "id": 2,
+      "lat": 35.34056312094003,  
+      "lng": 25.134515135272668,
+      "type": "COFFEE",
+      "name": "Indigo",
+      "desc": "Cafe",
+      "address": "25ης Αυγούστου 76",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://m.facebook.com/indigocoffee/?locale2=el_GR"
+    },
+    {
+      "id": 3,
+      "lat": 35.33967317147665, 
+      "lng": 25.135850800408328,
+      "type": "COFFEE",
+      "name": "Crop",
+      "desc": "Cafe",
+      "address": "Αρετούσας 4, Ηράκλειο 712 02",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: http://www.crop.coffee/el/"
+    },
+    {
+      "id": 4,
+      "lat": 35.34014952343556,
+      "lng":  25.133881160464178,
+      "type": "COFFEE",
+      "name": "DaVinci Gelato ",
+      "desc":  "Cafe-Gelateria",
+      "address": "25ης Αυγούστου 90",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://www.davincigelato.gr"
+    },
+    {
+      "id": 5,
+      "lat": 35.338260044061606,     
+      "lng": 25.130751978071693,
+      "type": "COFFEE",
+      "name": "Μινιατούρα",
+      "desc": "Cafe",
+      "address": "Μονής Οδηγήτριας 11, Ηράκλειο 712 01",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες:https://www.facebook.com/miniatoura.cafe"
+    },
+    {
+      "id": 6,
+      "lat": 35.339677965442604,    
+      "lng": 25.13579965333381,
+      "type": "COFFEE",
+      "name": "ΦΙΞ",
+      "desc": "Cafe",
+      "address": "Αρετούσας 2",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://www.facebook.com/fix.heraklion"
+    },
+    {
+      "id": 7,
+      "lat": 35.33959442017098,  
+      "lng":  25.1351661862175,
+      "type": "COFFEE",
+      "name": "PLASTELINA",
+      "desc": "Cafe-Bar",
+      "address": "Ιδαίου Άντρου",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://plastelina.gr/"
+    },
+    {
+      "id": 8,
+      "lat": 35.33798634850639,   
+      "lng": 25.13113134780962,
+      "type": "COFFEE",
+      "name": "Frankly cafe",
+      "desc": "Cafe",
+      "address": "Καρτερού 60, Ηράκλειο 712 01",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: http://franklymydear.gr/"
+    },
+    {
+      "id": 9,
+      "lat": 35.34061333121777,    
+      "lng": 25.130834170984095,
+      "type": "COFFEE",
+      "name": "Μπισκότο",
+      "desc": "Cafe",
+      "address": "Χάνδακος 36",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://www.biscotto.coffee/MenuWithPricelistGreek2017.pdf"
+    },
+    {
+      "id": 10,
+      "lat": 35.33106063341267,     
+      "lng": 25.133672512655785,
+      "type": "COFFEE",
+      "name": "Hacienda",
+      "desc": "Cafe",
+      "address": "Λεωφ. Ανδρέα Παπανδρέου 25, Ηράκλειο 713 05",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://haciendacafe.gr/#menu-hacienda"
+    }
+  ]

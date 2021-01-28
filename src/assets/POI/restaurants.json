@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "lat":  35.340361491312564,
+    "lng":  25.132479624677348,
+    "type": "RESTAURANT",
+    "name": "Πεσκέσι",
+    "desc": "Εστιατόριο-Κρητική Κουζίνα",
+    "address": "Καπετάν Χαραλάμπη 6-8",
+    "city": "HER",
+    "link": "https://peskesicrete.gr/el/"
+  },
+  {
+    "id":   2,
+    "lat":  35.3406292757642,
+    "lng":  25.135429868856228,
+    "type": "RESTAURANT",
+    "name": "Kouzeineri",
+    "desc": "Steak House Reastaurant",
+    "address": "Αγίου τίτου, Ευρώπης",
+    "city": "HER",
+    "link": "https://kouzeineri.com/"
+  },
+  {
+    "id": 3,
+    "lat": 35.33998246991741,
+    "lng": 25.132809984199312,
+    "type": "RESTAURANT",
+    "name": "Beer o'clock",
+    "desc": "Burger",
+    "address": "Παρ. Μινώταυρου",
+    "city": "HER",
+    "link": "https://www.beeroclock.gr/"
+  },
+  {
+    "id": 4,
+    "lat": 35.34287131470018,
+    "lng": 25.134176677118486,
+    "type": "RESTAURANT",
+    "name": "Ιππόκαμπος",
+    "desc": "Ψαροταβέρνα-Ουζερί ",
+    "address": "Λεωφ. Σοφοκλή Βενιζέλου 3",
+    "city": "HER",
+    "link": "https://www.facebook.com/IppokamposSeafood/"
+  },
+  {
+    "id": 5,
+    "lat": 35.34164675262451,
+    "lng": 25.13102356878166,
+    "type": "RESTAURANT",
+    "name": "Η ΑΥΛΗ ΤΟΥ ΔΕΥΚΑΛΙΩΝΑ",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Π. Πρεβελάκη 10",
+    "city": "HER",
+    "link": "https://www.facebook.com/pages/category/Diner/%CE%97-%CE%91%CF%85%CE%BB%CE%B7-%CF%84%CE%BF%CF%85-%CE%94%CE%B5%CF%85%CE%BA%CE%B1%CE%BB%CE%B9%CF%89%CE%BD%CE%B1-1390122911316365/"
+  },
+  {
+    "id": 6,
+    "lat": 35.34146875079415,
+    "lng": 25.131789368796927,
+    "type": "RESTAURANT",
+    "name": "Λυχνοστάτης",
+    "desc": "Ελληνικό Εστιατόριο-Μεζεδοπωλείο",
+    "address": "Γιάννη Χρονάκη 8",
+    "city": "HER",
+    "link": "https://el-gr.facebook.com/lychnostatis.cretan.cuisine/"
+  },
+  {
+    "id": 7,
+    "lat": 35.33971765244102,
+    "lng": 25.133033352587702,
+    "type": "RESTAURANT",
+    "name": "Via Pastarella",
+    "desc": "Ιταλικό Εστιατόριο",
+    "address": "Καντανολέοντος 2",
+    "city": "HER",
+    "link": "https://viapastarella.gr/"
+  },
+  {
+    "id": 8,
+    "lat": 35.33892144954797,
+    "lng": 25.132746279415827,
+    "type": "RESTAURANT",
+    "name": "Chop Chop",
+    "desc": "Ψητοπωλείο-Μπριζολάδικο",
+    "address": "Ίδης 6",
+    "city": "HER",
+    "link": "https://el-gr.facebook.com/pages/category/Barbecue-Restaurant/Chop-Chop-1727860184189520/"
+
+  },
+  {
+    "id": 9,
+    "lat": 35.339839944331125,
+    "lng": 25.135240626403068,
+    "type": "RESTAURANT",
+    "name": "Το Ροβύθι",
+    "desc": "Υγιεινό φαγητό με αγνά προϊόντα οικολογικής γεωργίας και ηθικού εμπορίου.",
+    "address": "Μεραμβέλλου 9",
+    "city": "HER",
+    "link": "https://el-gr.facebook.com/rovithaki"
+  },
+  {
+    "id": 10,
+    "lat": 35.33905445643916,
+    "lng": 25.135943856045742,
+    "type": "RESTAURANT",
+    "name": "Τυράκι",
+    "desc": "Σαντουιτσάδικο.",
+    "address": "Μιλάτου 29",
+    "city": "HER",
+    "link": "https://el-gr.facebook.com/%CE%A4%CF%85%CF%81%CE%B1%CE%BA%CE%B9-1636128353274791/"
+  },
+  {
+    "id": 11,
+    "lat":  35.372259351268106, 
+    "lng": 24.474062140021324,
+    "type": "RESTAURANT",
+    "name": "Το Φουρνάκι",
+    "desc": "Ιταλικο Εστιατόριο",
+    "address": "Λεωφ. Εμμανουήλ Κεφαλογιάννη 18",
+    "city": "RETH",
+    "link": "https://peskesicrete.gr/el/"
+  },
+  {
+    "id":   12,
+    "lat":  35.36599336534342, 
+    "lng": 24.517274141871557,
+    "type": "RESTAURANT",
+    "name": "Ταβέρνα του Ζήση",
+    "desc": "Ταβέρνα",
+    "address": "Λεωφ. Μάχης Κρήτης 63",
+    "city": "RETH",
+    "link": "https://www.taverna-zisis.gr/elliniki-kouzina/"
+  },
+  {
+    "id": 13,
+    "lat": 35.37220525776804, 
+    "lng": 24.473604301393642,
+    "type": "RESTAURANT",
+    "name": "Θαλασσογραφία",
+    "desc": "Εστιατόριο",
+    "address": "ΚΕΦΑΛΟΓΙΑΝΝΗΔΩΝ 33",
+    "city": "RETH",
+    "link": "https://www.thalassographia.gr/#eluid0efaa466"
+  },
+  {
+    "id": 14,
+    "lat": 35.36704310833941, 
+    "lng": 24.490426540021165,
+    "type": "RESTAURANT",
+    "name": "Hercules",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Σοφοκλή Βενιζέλου και Πανεπιστημίου 72",
+    "city": "RETH",
+    "link": "https://www.facebook.com/HerculesRestaurantRethimno/"
+  },
+  {
+    "id": 15,
+    "lat": 35.37219116098917, 
+    "lng": 24.473902840021285,
+    "type": "RESTAURANT",
+    "name": "Εν πλω",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Εμμανουήλ, Λεωφ. Εμμανουήλ Κεφαλογιάννη 28",
+    "city": "RETH",
+    "link": "https://www.facebook.com/EnPloRethimno/"
+  },
+  {
+    "id": 16,
+    "lat": 35.370128201316476, 
+    "lng": 24.47595248605043,
+    "type": "RESTAURANT",
+    "name": "Italian",
+    "desc": "Ιταλικό Εστιατόριο",
+    "address": "ΓΑρκαδίου 279, Ρέθυμνο 741 00",
+    "city": "RETH",
+    "link": "https://italianrethymno.gr/"
+  },
+  {
+    "id": 17,
+    "lat": 35.371476695218846, 
+    "lng": 24.47372725536444,
+    "type": "RESTAURANT",
+    "name": "Το Ρηνιώ",
+    "desc": "Εστιατόριο-Μεζεδοπωλείο",
+    "address": "Χειμάρρας 10",
+    "city": "RETH",
+    "link": "https://www.facebook.com/Rinio.Mezedopoleio?_rdc=1&_rdr"
+  },
+  {
+    "id": 18,
+    "lat": 35.36984071562533, 
+    "lng": 24.474585562251207,
+    "type": "RESTAURANT",
+    "name": "Μπακαλόγατος",
+    "desc": "Εστιατόριο-Μεζεδοπωλείο",
+    "address": "Πλατεία Τίτου Πετυχάκη",
+    "city": "RETH",
+    "link": "https://m.facebook.com/pages/category/Diner/Mpakalogatos-Rethymno-167091033450828/?locale2=el_GR"
+
+  },
+  {
+    "id": 19,
+    "lat": 35.36946920281652, 
+    "lng": 24.474623540021163,
+    "type": "RESTAURANT",
+    "name": "Τυράκι",
+    "desc": "Υγιεινό φαγητό με αγνά προϊόντα οικολογικής γεωργίας και ηθικού εμπορίου.",
+    "address": "Εμμανουήλ Βερνάδου 5",
+    "city": "RETH",
+    "link": "https://www.facebook.com/%CE%A4%CF%85%CF%81%CE%B1%CE%BA%CE%B9-1636128353274791/"
+  },
+  {
+    "id": 20,
+    "lat": 35.37098271075482, 
+    "lng": 24.47509560879526,
+    "type": "RESTAURANT",
+    "name": "Bar B.Q.",
+    "desc": "Ψητοποωλείο.",
+    "address": "Σαλαμίνος 12",
+    "city": "RETH",
+    "link": "https://www.barbq.gr/menu/"
+  }
+]
+

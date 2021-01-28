@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "lat": 35.34007420033243, 
+      "lng": 25.133718101022776, 
+      "type": "BARS",
+      "name": "Swing Thing",
+      "desc": "Cocktail Bar",
+      "address": "Αρκολεων 13",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: http://www.swingthing.gr/gallery"
+    },
+    {
+      "id":   2,
+      "lat":  35.34034649409765, 
+      "lng":  25.132451166790162,
+      "type": "BARS",
+      "name": "OPUS",
+      "desc": "Wine Bar",
+      "address": "3 Καπετάν Χαραλάμπη",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες:https://el-gr.facebook.com/opuswbc/"
+    },
+    {
+      "id": 3,
+      "lat": 35.338252549375504,
+      "lng":  25.136323564705624,
+      "type": "BARS",
+      "name": "Χάλαβρο Open Bar",
+      "desc": "Cocktail Bar",
+      "address": "Μιλάτου 10",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: http://www.xalavro.gr/"
+    },
+    {
+      "id":  4,
+      "lat": 35.33900899493296,
+      "lng":  25.135325985883615,  
+      "type": "BARS",
+      "name": "Stone Project",
+      "desc":  "Cocktail Bar",
+      "address": "Κοραή 14",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες:"
+    },
+    {
+      "id": 5,
+      "lat": 35.33914124069789,    
+      "lng": 25.13281762870043,
+      "type": "BARS",
+      "name": "The Bitters Bar",
+      "desc": "Cocktail Bar",
+      "address": " Ίδης 25",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: "
+    },
+    {
+      "id": 6,
+      "lat": 35.34003850211533,    
+      "lng": 25.13131382986642,
+      "type": "BARS",
+      "name": "Jailhouse Rock Bar",
+      "desc": "Bar",
+      "address": "Αγιοστεφανιτών 19, Ηράκλειο 712 02",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες:"
+    },
+    {
+      "id": 7,
+      "lat": 35.338902675058684, 
+      "lng": 25.135178841704754,
+      "type": "BARS",
+      "name": "Wets & Drys Days and Nights",
+      "desc": "Cocktail Bar",
+      "address": "Κοραή 7-9",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://m.facebook.com/wetsanddrys/"
+    },
+    {
+      "id": 8,
+      "lat": 35.339798152835534,   
+      "lng": 25.135311306100228,
+      "type": "BARS",
+      "name": "Τίτα Μπρίκι",
+      "desc": "Bar",
+      "address": "Μεραμβέλλου 8, Ηράκλειο 712 02",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://www.historical-museum.gr/"
+    },
+    {
+      "id": 9,
+      "lat": 35.34048733114231,  
+      "lng": 25.134652961608328,
+      "type": "BARS",
+      "name": "DISH BAR PARTY RESTAURANT",
+      "desc": "Bar-Restaurant",
+      "address": "Παπαγιαμαλή, Πλ. Αγίου Τίτου 03",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες: https://dishbar.gr/reservations/"
+    },
+    {
+      "id": 10,
+      "lat": 35.33935124822946,    
+      "lng": 25.131615998973597,
+      "type": "BARS",
+      "name": "Πολυτεχνεῖον Cafe",
+      "desc": "Bar",
+      "address": "Ψαρομηλίγκων 9-11, Ηράκλειο 712 02",
+      "city": "HER",
+      "link": "Για περισσότερες πληροφορίες:"
+    }
+  ]
