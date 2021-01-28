@@ -16,9 +16,19 @@
 .map__filters {
    width: 300px;
    margin-right: 30px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+.home__city_filter {
+   margin-bottom: 15px !important;
+   min-width: 100px !important;
 }
 
 .map__wrapper {
    flex-grow: 1;
-   height: 500px;
+   height: 700px;
 }

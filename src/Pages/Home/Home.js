@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from "react"
 import GoogleMapReact from "google-map-react"
-import Select from "react-select"
 import Marker from "./Marker"
 import "./home.css"
 
@@ -11,10 +10,14 @@ import coffeesPOI from "../../assets/POI/coffees.json"
 
 import rethPhoto from "../../assets/cities/rethymno.png"
 import HerPhoto from "../../assets/cities/Heraklion.png"
+import ChqPhoto from "../../assets/cities/Chania.jpg"
+import AGNPhoto from "../../assets/cities/Ag.Nikolaos.jpg"
+import MySelect from "../../components/MySelect"
 
 const GOOGLE_MAP_KEY = "AIzaSyCdB68ioVna9Y-IRSRCWZ9UzQ8CAolJXe0"
 
 const poiOptions = [
+  { value: "DEFAULT", label: "All" },
   { value: "RESTAURANT", label: "Εστιατόρια" },
   { value: "CULTURE", label: "Πολιτιστικά" },
   { value: "BAR", label: "Μπαρ" },
@@ -36,19 +39,11 @@ function getPOIPlaces(POI) {
 }
 
 const cityOptions = [
-  { value: "HER", label: "Ηράκλειο" },
-  { value: "CHQ", label: "Χανιά" },
-  { value: "RETH", label: "Ρεθυμνο" },
-  { value: "AGN", label: "Αγ. Νικόλαος" }
-]
-
-
-
-const cityPhotos = [
-  { value: "HER", backgroundImage: `url(${HerPhoto})`  },
-  { value: "CHQ", label: "Χανιά" },
-  { value: "RETH", label: "Ρεθυμνο" },
-  { value: "AGN", label: "Αγ. Νικόλαος" }
+  { value: "DEFAULT", label: "All", image: rethPhoto },
+  { value: "HER", label: "Ηράκλειο", image: HerPhoto },
+  { value: "CHQ", label: "Χανιά", image: ChqPhoto },
+  { value: "RETH", label: "Ρεθυμνο", image: rethPhoto },
+  { value: "AGN", label: "Αγ. Νικόλαος", image: AGNPhoto }
 ]
 
 const cityLocations = {
@@ -93,26 +88,33 @@ const SimpleMap = () => {
   const [markerKeyClicked, setMarkerKeyClicked] = useState()
   const [selectedCity, setSelectedCity] = useState("DEFAULT")
   const [selectedPOI, setSelectedPOI] = useState("DEFAULT")
-  const [SelectedPhoto, setSelectedPhoto]= useState("DEFAULT")
+
   const onChildClickCallback = useCallback((key) => {
     setMarkerKeyClicked(key)
   }, [])
 
+  const selectedCityObj = cityOptions.find(
+    (city) => city.value === selectedCity
+  )
+
   const POI = getPOIPlaces(selectedPOI)
   return (
-    <div className="homePage" style={{ backgroundImage: `url(${rethPhoto})` }}>
-
+    <div
+      className="homePage"
+      style={{ backgroundImage: `url(${selectedCityObj.image})` }}>
       <div className="map__filters">
-        <Select
+        <MySelect
+          className={"home__city_filter"}
           options={cityOptions}
-          onChange={(val) => setSelectedCity(val ? val.value : "DEFAULT")}
-          isClearable
-          
+          onChange={setSelectedCity}
+          name="City"
+          value={selectedCity}
         />
-        <Select
+        <MySelect
           options={poiOptions}
-          onChange={(val) => setSelectedPOI(val ? val.value : "DEFAULT")}
-          isClearable
+          onChange={setSelectedPOI}
+          name="Category"
+          value={selectedPOI}
         />
       </div>
       <div className="map__wrapper">
