@@ -1,7 +1,7 @@
 {
   "name": "cretantouristguide",
   "version": "0.1.0",
-  "homepage": "https://giorVog.github.io/My-Cretantouristguide",
+  "homepage": "https://giorvog.github.io/cretanTouristGuide/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
