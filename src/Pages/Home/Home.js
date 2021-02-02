@@ -8,7 +8,7 @@ import culturePOI from "../../assets/POI/culture.json"
 import barsPOI from "../../assets/POI/bars.json"
 import coffeesPOI from "../../assets/POI/coffees.json"
 
-import rethPhoto from "../../assets/cities/rethymno.png"
+import RethPhoto from "../../assets/cities/rethymno.png"
 import HerPhoto from "../../assets/cities/Heraklion.png"
 import ChqPhoto from "../../assets/cities/Chania.jpg"
 import AGNPhoto from "../../assets/cities/Ag.Nikolaos.jpg"
@@ -39,10 +39,10 @@ function getPOIPlaces(POI) {
 }
 
 const cityOptions = [
-  { value: "DEFAULT", label: "All", image: rethPhoto },
+  { value: "DEFAULT", label: "All", image: RethPhoto },
   { value: "HER", label: "Ηράκλειο", image: HerPhoto },
   { value: "CHQ", label: "Χανιά", image: ChqPhoto },
-  { value: "RETH", label: "Ρεθυμνο", image: rethPhoto },
+  { value: "RETH", label: "Ρεθυμνο", image: RethPhoto },
   { value: "AGN", label: "Αγ. Νικόλαος", image: AGNPhoto }
 ]
 

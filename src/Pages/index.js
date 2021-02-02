@@ -129,7 +129,7 @@ export default function Pages() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Mini variant drawer
+            Cretan Tourist Guide
           </Typography>
         </Toolbar>
       </AppBar>
