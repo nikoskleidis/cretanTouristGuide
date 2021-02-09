@@ -1,0 +1,35 @@
+.mapPage{
+   height: 100%;
+   width: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   margin-top: -20px;
+}
+
+.mapPhoto{
+   height: 100%;
+   width: 100%;
+}
+
+.map__filters {
+   width: 300px;
+   margin-right: 30px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+.map__city_filter {
+   margin-bottom: 15px !important;
+   min-width: 100px !important;
+}
+
+.map__wrapper {
+   flex-grow: 1;
+   height: 600px;
+}

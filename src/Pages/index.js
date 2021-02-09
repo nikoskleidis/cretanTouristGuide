@@ -14,10 +14,12 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ChevronRightIcon from "@material-ui/icons/ChevronRight"
 import HomeIcon from "@material-ui/icons/HomeOutlined"
 import ProfileIcon from "@material-ui/icons/PermContactCalendarOutlined"
+import ExploreIcon from '@material-ui/icons/Explore';
 import MenuItem from "../components/MenuItem"
 import { Route, Switch } from "react-router-dom"
 import About from "./About"
-import Home from "./Home/Home"
+import Map from "./Map/Map"
+import Home from "./Home/home"
 
 const drawerWidth = 240
 
@@ -92,7 +94,12 @@ const menuItems = [
   {
     to: "/about",
     Icon: ProfileIcon,
-    text: "About"
+    text: "About",
+  },
+  {
+    to: "/",
+    Icon: ExploreIcon,
+    text: "Maps"
   }
 ]
 
@@ -169,6 +176,9 @@ export default function Pages() {
           </Route>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/">
+            < Map/>
           </Route>
         </Switch>
       </main>

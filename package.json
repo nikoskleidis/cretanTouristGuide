@@ -1,7 +1,7 @@
 {
   "name": "cretantouristguide",
+  "homepage": "https://giorvog.github.io/cretanTouristGuide/",
   "version": "0.1.0",
-  "homepage": "https://giorVog.github.io/My-Cretantouristguide",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -15,7 +15,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.28.0",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "predeploy": "npm run build",
