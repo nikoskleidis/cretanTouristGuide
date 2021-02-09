@@ -14,9 +14,11 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft"
 import ChevronRightIcon from "@material-ui/icons/ChevronRight"
 import HomeIcon from "@material-ui/icons/HomeOutlined"
 import ProfileIcon from "@material-ui/icons/PermContactCalendarOutlined"
+import ExploreIcon from "@material-ui/icons/Explore"
 import MenuItem from "../components/MenuItem"
 import { Route, Switch } from "react-router-dom"
 import About from "./About"
+import Map from "./Map/Map"
 import Home from "./Home/Home"
 
 const drawerWidth = 240
@@ -85,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   {
-    to: "/home",
+    to: "/",
     Icon: HomeIcon,
     text: "Home"
   },
@@ -93,6 +95,11 @@ const menuItems = [
     to: "/about",
     Icon: ProfileIcon,
     text: "About"
+  },
+  {
+    to: "/map",
+    Icon: ExploreIcon,
+    text: "Maps"
   }
 ]
 
@@ -167,7 +174,10 @@ export default function Pages() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/home">
+          <Route path="/map">
+            <Map />
+          </Route>
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

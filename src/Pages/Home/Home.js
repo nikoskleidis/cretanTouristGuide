@@ -1,147 +1,72 @@
-import React, { useState, useCallback } from "react"
-import GoogleMapReact from "google-map-react"
-import Marker from "./Marker"
-import "./home.css"
+import React from "react"
+import Slider from "react-slick"
 
-import restaurantsPOI from "../../assets/POI/restaurants.json"
-import culturePOI from "../../assets/POI/culture.json"
-import barsPOI from "../../assets/POI/bars.json"
-import coffeesPOI from "../../assets/POI/coffees.json"
-
-import RethPhoto from "../../assets/cities/rethymno.png"
+import RethPhoto from "../../assets/cities/Rethymno.png"
 import HerPhoto from "../../assets/cities/Heraklion.png"
 import ChqPhoto from "../../assets/cities/Chania.jpg"
 import AGNPhoto from "../../assets/cities/Ag.Nikolaos.jpg"
-import MySelect from "../../components/MySelect"
 
-const GOOGLE_MAP_KEY = "AIzaSyCdB68ioVna9Y-IRSRCWZ9UzQ8CAolJXe0"
+import next from "../../assets/slider/next.png"
+import prev from "../../assets/slider/back.png"
 
-const poiOptions = [
-  { value: "DEFAULT", label: "All" },
-  { value: "RESTAURANT", label: "Εστιατόρια" },
-  { value: "CULTURE", label: "Πολιτιστικά" },
-  { value: "BAR", label: "Μπαρ" },
-  { value: "COFFEE", label: "Καφέ" }
+import "../../assets/slider/slick.css"
+import "../../assets/slider/slick-theme.css"
+import "./home.css"
+
+const sliderConfig = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  fade: true,
+  centerMode: true, // enable center mode
+  centerPadding: "50px",
+  nextArrow: <img src={next} alt="next_photo" />,
+  prevArrow: <img src={prev} alt="previous_photo" />
+}
+
+const products = [
+  {
+    image: RethPhoto,
+    title: "Ρέθυμνο"
+  },
+  {
+    image: HerPhoto,
+    title: "Ηράκλειο"
+  },
+  {
+    image: ChqPhoto,
+    title: "Χανιά"
+  },
+  {
+    image: AGNPhoto,
+    title: "Άγιος Νικόλαος"
+  }
 ]
 
-const poiInfo = {
-  RESTAURANT: restaurantsPOI,
-  CULTURE: culturePOI,
-  BAR: barsPOI,
-  COFFEE: coffeesPOI
-}
-
-function getPOIPlaces(POI) {
-  if (POI === "DEFAULT") {
-    return [].concat.apply([], Object.values(poiInfo))
-  }
-  return poiInfo[POI]
-}
-
-const cityOptions = [
-  { value: "DEFAULT", label: "All", image: RethPhoto },
-  { value: "HER", label: "Ηράκλειο", image: HerPhoto },
-  { value: "CHQ", label: "Χανιά", image: ChqPhoto },
-  { value: "RETH", label: "Ρεθυμνο", image: RethPhoto },
-  { value: "AGN", label: "Αγ. Νικόλαος", image: AGNPhoto }
-]
-
-const cityLocations = {
-  HER: {
-    center: {
-      lat: 35.341846,
-      lng: 25.148254
-    },
-    zoom: 11
-  },
-  CHQ: {
-    center: {
-      lat: 35.51124,
-      lng: 24.02921
-    },
-    zoom: 11
-  },
-  RETH: {
-    center: {
-      lat: 35.36687,
-      lng: 24.47487
-    },
-    zoom: 11
-  },
-  AGN: {
-    center: {
-      lat: 35.19106,
-      lng: 25.71524
-    },
-    zoom: 11
-  },
-  DEFAULT: {
-    center: {
-      lat: 35.0,
-      lng: 25.0
-    },
-    zoom: 9
-  }
-}
-
-const SimpleMap = () => {
-  const [markerKeyClicked, setMarkerKeyClicked] = useState()
-  const [selectedCity, setSelectedCity] = useState("DEFAULT")
-  const [selectedPOI, setSelectedPOI] = useState("DEFAULT")
-
-  const onChildClickCallback = useCallback((key) => {
-    setMarkerKeyClicked(key)
-  }, [])
-
-  const selectedCityObj = cityOptions.find(
-    (city) => city.value === selectedCity
-  )
-
-  const POI = getPOIPlaces(selectedPOI)
+function App() {
   return (
-    <div
-      className="homePage"
-      style={{ backgroundImage: `url(${selectedCityObj.image})` }}>
-      <div className="map__filters">
-        <MySelect
-          className={"home__city_filter"}
-          options={cityOptions}
-          onChange={setSelectedCity}
-          name="City"
-          value={selectedCity}
-        />
-        <MySelect
-          options={poiOptions}
-          onChange={setSelectedPOI}
-          name="Category"
-          value={selectedPOI}
-        />
-      </div>
-      <div className="map__wrapper">
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: GOOGLE_MAP_KEY }}
-          defaultCenter={cityLocations.DEFAULT.center}
-          defaultZoom={cityLocations.DEFAULT.zoom}
-          center={cityLocations[selectedCity].center}
-          zoom={cityLocations[selectedCity].zoom}
-          onClick={() => setMarkerKeyClicked(undefined)}
-          onChildClick={onChildClickCallback}>
-          {POI.map((poi) => {
-            const markerKey = `${poi.type}_${poi.id}`
+    <div className="Home">
+      <h1>
+        <strong className="app-title">WELCOME TO CRETE</strong>
+      </h1>
+      <div className="Home__sliderWrapper">
+        <Slider {...sliderConfig}>
+          {products.map((x, i) => {
             return (
-              <Marker
-                lat={poi.lat}
-                lng={poi.lng}
-                marker={poi}
-                showBalloon={markerKeyClicked === markerKey}
-                key={markerKey}
-              />
+              <div key={i} className="img-card">
+                <img className="img" src={x.image} alt="sgewhh" />
+                <div className="card-body">
+                  <div className="card-title">{x.title}</div>
+                </div>
+              </div>
             )
           })}
-        </GoogleMapReact>
+        </Slider>
       </div>
     </div>
   )
 }
 
-export default SimpleMap
+export default App
