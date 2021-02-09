@@ -8,10 +8,6 @@ import culturePOI from "../../assets/POI/culture.json"
 import barsPOI from "../../assets/POI/bars.json"
 import coffeesPOI from "../../assets/POI/coffees.json"
 
-import RethPhoto from "../../assets/cities/Rethymno.png"
-import HerPhoto from "../../assets/cities/Heraklion.png"
-import ChqPhoto from "../../assets/cities/Chania.jpg"
-import AGNPhoto from "../../assets/cities/Ag.Nikolaos.jpg"
 import MySelect from "../../components/MySelect"
 
 const GOOGLE_MAP_KEY = "AIzaSyCdB68ioVna9Y-IRSRCWZ9UzQ8CAolJXe0"
@@ -39,11 +35,11 @@ function getPOIPlaces(POI) {
 }
 
 const cityOptions = [
-  { value: "DEFAULT", label: "All", image: RethPhoto },
-  { value: "HER", label: "Ηράκλειο", image: HerPhoto },
-  { value: "CHQ", label: "Χανιά", image: ChqPhoto },
-  { value: "RETH", label: "Ρεθυμνο", image: RethPhoto },
-  { value: "AGN", label: "Αγ. Νικόλαος", image: AGNPhoto }
+  { value: "DEFAULT", label: "All" },
+  { value: "HER", label: "Ηράκλειο" },
+  { value: "CHQ", label: "Χανιά" },
+  { value: "RETH", label: "Ρεθυμνο" },
+  { value: "AGN", label: "Αγ. Νικόλαος" }
 ]
 
 const cityLocations = {
@@ -92,10 +88,6 @@ const SimpleMap = () => {
   const onChildClickCallback = useCallback((key) => {
     setMarkerKeyClicked(key)
   }, [])
-
-  const selectedCityObj = cityOptions.find(
-    (city) => city.value === selectedCity
-  )
 
   const POI = getPOIPlaces(selectedPOI)
   return (

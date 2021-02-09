@@ -20,7 +20,7 @@ const Balloon = ({ marker }) => (
     <div className="marker_ballobDesc">{marker.desc}</div>
     <div className="marker_link_wrapper">
       Για περισσοτερες πληροφοριες
-      <a href={marker.link} target="_blank">
+      <a href={marker.link} target="_blank" rel="noopener noreferrer">
         πατήστε εδω
       </a>
     </div>

@@ -1,7 +1,7 @@
 import React from "react"
 import "./styles.css"
 import Photo from "../../assets/me.png"
-import rethymno from "../../assets/cities/rethymno.png"
+import rethymno from "../../assets/cities/Rethymno.png"
 
 function AboutPage() {
   return (
