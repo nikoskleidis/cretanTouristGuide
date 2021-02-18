@@ -41,7 +41,22 @@ const cityOptions = [
   { value: "RETH", label: "Ρεθυμνο" },
   { value: "AGN", label: "Αγ. Νικόλαος" }
 ]
+/*
+const selectList = [
+  {value: "DEFAULT"},
+  {value: RESTAURANT},
+  {value:CULTURE},
+  {value: BAR},
+  {value: COFFEE}
+]
 
+function getPOIList(List) {
+  if (List === "DEFAULT") {
+    return [].concat.apply([], Object.values(selectList))
+  }
+  return selectList[List]
+}
+*/
 const cityLocations = {
   HER: {
     center: {
@@ -84,12 +99,16 @@ const SimpleMap = () => {
   const [markerKeyClicked, setMarkerKeyClicked] = useState()
   const [selectedCity, setSelectedCity] = useState("DEFAULT")
   const [selectedPOI, setSelectedPOI] = useState("DEFAULT")
+  //const [selectedList,setSelectedList] = useState()
 
   const onChildClickCallback = useCallback((key) => {
     setMarkerKeyClicked(key)
   }, [])
 
+
   const POI = getPOIPlaces(selectedPOI)
+  //const List= getPOIList(selectedList)
+
   return (
     <div className="mapPage">
       <div className="map__filters">
@@ -106,6 +125,13 @@ const SimpleMap = () => {
           name="Category"
           value={selectedPOI}
         />
+        <div className="marker_list">
+          <ul>
+            {POI.filter(poiList => poiList.name).map((poi) => (
+            <div>{poi.name}</div>
+            ))}
+          </ul>
+        </div>
       </div>
       <div className="map__wrapper">
         <GoogleMapReact
@@ -133,5 +159,4 @@ const SimpleMap = () => {
     </div>
   )
 }
-
 export default SimpleMap
