@@ -8,7 +8,7 @@
       "desc": "Cocktail Bar",
       "address": "Αρκολεων 13",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: http://www.swingthing.gr/gallery"
+      "link": "http://www.swingthing.gr/gallery"
     },
     {
       "id":   2,
@@ -19,7 +19,7 @@
       "desc": "Wine Bar",
       "address": "3 Καπετάν Χαραλάμπη",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες:https://el-gr.facebook.com/opuswbc/"
+      "link": "https://el-gr.facebook.com/opuswbc/"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "desc": "Cocktail Bar",
       "address": "Μιλάτου 10",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: http://www.xalavro.gr/"
+      "link": "http://www.xalavro.gr/"
     },
     {
       "id":  4,
@@ -41,7 +41,7 @@
       "desc":  "Cocktail Bar",
       "address": "Κοραή 14",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες:"
+      "link": ""
     },
     {
       "id": 5,
@@ -52,7 +52,7 @@
       "desc": "Cocktail Bar",
       "address": " Ίδης 25",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: "
+      "link": ""
     },
     {
       "id": 6,
@@ -63,7 +63,7 @@
       "desc": "Bar",
       "address": "Αγιοστεφανιτών 19, Ηράκλειο 712 02",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες:"
+      "link": ""
     },
     {
       "id": 7,
@@ -74,7 +74,7 @@
       "desc": "Cocktail Bar",
       "address": "Κοραή 7-9",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://m.facebook.com/wetsanddrys/"
+      "link": "https://m.facebook.com/wetsanddrys/"
     },
     {
       "id": 8,
@@ -85,7 +85,7 @@
       "desc": "Bar",
       "address": "Μεραμβέλλου 8, Ηράκλειο 712 02",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://www.historical-museum.gr/"
+      "link": "https://www.historical-museum.gr/"
     },
     {
       "id": 9,
@@ -96,7 +96,7 @@
       "desc": "Bar-Restaurant",
       "address": "Παπαγιαμαλή, Πλ. Αγίου Τίτου 03",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://dishbar.gr/reservations/"
+      "link": "https://dishbar.gr/reservations/"
     },
     {
       "id": 10,
@@ -107,6 +107,6 @@
       "desc": "Bar",
       "address": "Ψαρομηλίγκων 9-11, Ηράκλειο 712 02",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες:"
+      "link": ""
     }
   ]

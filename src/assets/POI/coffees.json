@@ -8,7 +8,7 @@
       "desc": "Cafe-Restaurant",
       "address": "Αρκολεων 19, Ηράκλειο 712 02",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: http://www.central-park.gr/en/"
+      "link": "http://www.central-park.gr/en/"
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "desc": "Cafe",
       "address": "25ης Αυγούστου 76",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://m.facebook.com/indigocoffee/?locale2=el_GR"
+      "link": "https://m.facebook.com/indigocoffee/?locale2=el_GR"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "desc": "Cafe",
       "address": "Αρετούσας 4, Ηράκλειο 712 02",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: http://www.crop.coffee/el/"
+      "link": "http://www.crop.coffee/el/"
     },
     {
       "id": 4,
@@ -41,7 +41,7 @@
       "desc":  "Cafe-Gelateria",
       "address": "25ης Αυγούστου 90",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://www.davincigelato.gr"
+      "link": "https://www.davincigelato.gr"
     },
     {
       "id": 5,
@@ -52,7 +52,7 @@
       "desc": "Cafe",
       "address": "Μονής Οδηγήτριας 11, Ηράκλειο 712 01",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες:https://www.facebook.com/miniatoura.cafe"
+      "link": "https://www.facebook.com/miniatoura.cafe"
     },
     {
       "id": 6,
@@ -63,7 +63,7 @@
       "desc": "Cafe",
       "address": "Αρετούσας 2",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://www.facebook.com/fix.heraklion"
+      "link": "https://www.facebook.com/fix.heraklion"
     },
     {
       "id": 7,
@@ -74,7 +74,7 @@
       "desc": "Cafe-Bar",
       "address": "Ιδαίου Άντρου",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://plastelina.gr/"
+      "link": "https://plastelina.gr/"
     },
     {
       "id": 8,
@@ -85,7 +85,7 @@
       "desc": "Cafe",
       "address": "Καρτερού 60, Ηράκλειο 712 01",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: http://franklymydear.gr/"
+      "link": "http://franklymydear.gr/"
     },
     {
       "id": 9,
@@ -96,7 +96,7 @@
       "desc": "Cafe",
       "address": "Χάνδακος 36",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://www.biscotto.coffee/MenuWithPricelistGreek2017.pdf"
+      "link": "https://www.biscotto.coffee/MenuWithPricelistGreek2017.pdf"
     },
     {
       "id": 10,
@@ -107,6 +107,6 @@
       "desc": "Cafe",
       "address": "Λεωφ. Ανδρέα Παπανδρέου 25, Ηράκλειο 713 05",
       "city": "HER",
-      "link": "Για περισσότερες πληροφορίες: https://haciendacafe.gr/#menu-hacienda"
+      "link": "https://haciendacafe.gr/#menu-hacienda"
     }
   ]
