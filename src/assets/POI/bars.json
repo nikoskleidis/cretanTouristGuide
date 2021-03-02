@@ -8,7 +8,8 @@
       "desc": "Cocktail Bar",
       "address": "Αρκολεων 13",
       "city": "HER",
-      "link": "http://www.swingthing.gr/gallery"
+      "link": "http://www.swingthing.gr/gallery",
+      "image": "src/assets/cities/Ag.Nikolaos.jpg"
     },
     {
       "id":   2,
@@ -19,7 +20,8 @@
       "desc": "Wine Bar",
       "address": "3 Καπετάν Χαραλάμπη",
       "city": "HER",
-      "link": "https://el-gr.facebook.com/opuswbc/"
+      "link": "https://el-gr.facebook.com/opuswbc/",
+      "image": "src/assets/cities/Heraklion.png"
     },
     {
       "id": 3,
@@ -30,7 +32,8 @@
       "desc": "Cocktail Bar",
       "address": "Μιλάτου 10",
       "city": "HER",
-      "link": "http://www.xalavro.gr/"
+      "link": "http://www.xalavro.gr/",
+      "image": "src/assets/cities/Rethymno.png"
     },
     {
       "id":  4,
@@ -41,7 +44,8 @@
       "desc":  "Cocktail Bar",
       "address": "Κοραή 14",
       "city": "HER",
-      "link": ""
+      "link": "",
+      "image": "src/assets/cities/Chania.jpg"
     },
     {
       "id": 5,
@@ -61,7 +65,7 @@
       "type": "BARS",
       "name": "Jailhouse Rock Bar",
       "desc": "Bar",
-      "address": "Αγιοστεφανιτών 19, Ηράκλειο 712 02",
+      "address": "Αγιοστεφανιτών 19,",
       "city": "HER",
       "link": ""
     },
@@ -83,7 +87,7 @@
       "type": "BARS",
       "name": "Τίτα Μπρίκι",
       "desc": "Bar",
-      "address": "Μεραμβέλλου 8, Ηράκλειο 712 02",
+      "address": "Μεραμβέλλου 8,",
       "city": "HER",
       "link": "https://www.historical-museum.gr/"
     },
@@ -105,8 +109,74 @@
       "type": "BARS",
       "name": "Πολυτεχνεῖον Cafe",
       "desc": "Bar",
-      "address": "Ψαρομηλίγκων 9-11, Ηράκλειο 712 02",
+      "address": "Ψαρομηλίγκων 9-11,",
       "city": "HER",
       "link": ""
+    },
+    {
+      "id": 11,
+      "lat": 35.371439366323266,     
+      "lng": 24.521807779935862,
+      "type": "BARS",
+      "name": "Baja Beach",
+      "desc": "Bar",
+      "address": "Χίου 12",
+      "city": "RETH",
+      "link": "https://bajabeach.gr/"
+    },
+    {
+      "id": 12,
+      "lat": 35.36681751690054,     
+      "lng": 24.474343402789987,
+      "type": "BARS",
+      "name": "The Roof highrise bar",
+      "desc": "Bar",
+      "address": "Δασκαλάκη 1",
+      "city": "RETH",
+      "link": "https://theroofreth.wixsite.com/roof"
+    },
+    {
+      "id": 13,
+      "lat": 35.375426044522825,    
+      "lng": 24.47382841867279,
+      "type": "BARS",
+      "name": "Voustasia Coctail bar",
+      "desc": "Cocktail Bar",
+      "address": "Λεωφ. Εμμανουήλ Κεφαλογιάννη 20",
+      "city": "RETH",
+      "link": "https://www.instagram.com/voustasia_cocktail_bar/?hl=en"
+    },
+    {
+      "id": 14,
+      "lat": 35.3693371810023,     
+      "lng": 24.499234301787652,
+      "type": "BARS",
+      "name": "BORA BORA",
+      "desc": "Bar",
+      "address": "Άρη Βελουχιώτη 42",
+      "city": "RETH",
+      "link": "https://www.facebook.com/boraborareth/"
+    },
+    {
+      "id": 15,
+      "lat": 35.36883015059175,      
+      "lng": 24.476928984200143,
+      "type": "BARS",
+      "name": "Chaplins",
+      "desc": "Bar",
+      "address": "Ελ.Βενιζέλου 52",
+      "city": "RETH",
+      "link": "https://www.facebook.com/Chaplinspubcafe-408169002597884/"
+    },
+    {
+      "id": 16,
+      "lat": 35.367350372045046,       
+      "lng": 24.47946482741856,
+      "type": "BARS",
+      "name": "LIVINGROOM ",
+      "desc": "Cafe-Bar",
+      "address": "Ελ.Βενιζέλου 5",
+      "city": "RETH",
+      "link": "https://livingroom.gr/"
     }
   ]

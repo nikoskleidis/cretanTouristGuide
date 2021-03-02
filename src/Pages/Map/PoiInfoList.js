@@ -1,58 +1,63 @@
-import React, { useEffect, useState } from "react"
-import { makeStyles } from "@material-ui/core/styles"
-import List from "@material-ui/core/List"
-import ListItem from "@material-ui/core/ListItem"
-import Divider from "@material-ui/core/Divider"
-import ListItemText from "@material-ui/core/ListItemText"
-import ListItemAvatar from "@material-ui/core/ListItemAvatar"
-import Avatar from "@material-ui/core/Avatar"
-import Typography from "@material-ui/core/Typography"
-import { Pagination } from "@material-ui/lab"
-
+import React, { useEffect, useState } from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import Divider from "@material-ui/core/Divider";
+import ListItemText from "@material-ui/core/ListItemText";
+import ListItemAvatar from "@material-ui/core/ListItemAvatar";
+import Avatar from "@material-ui/core/Avatar";
+import Typography from "@material-ui/core/Typography";
+import { Pagination } from "@material-ui/lab";
+import ShowMoreText from "react-show-more-text";
+import Alert from '@material-ui/lab/Alert';
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
     maxWidth: "36ch",
     backgroundColor: theme.palette.background.paper,
-    marginBottom: 10
+    marginBottom: 10,
+    marginTop: 30
   },
   inline: {
     display: "inline"
   }
-}))
+}));
 
-const PAGE_SIZE = 5
+const PAGE_SIZE = 5;
 
 function numPages(list, pageSize = PAGE_SIZE) {
-  return Math.ceil(list.length / pageSize)
+  return Math.ceil(list.length / pageSize);
 }
 
 export default function PoiInfoList(props) {
-  const { list, onPoiClick } = props
-  const [selectedPage, setSelectedPage] = useState(1)
-  const classes = useStyles()
-
-  const startIndex = (selectedPage - 1) * PAGE_SIZE
+  const { list, onPoiClick } = props;
+  const [selectedPage, setSelectedPage] = useState(1);
+  const classes = useStyles();
+  const startIndex = (selectedPage - 1) * PAGE_SIZE;
 
   const items = list.filter(
     (poi, index) => index >= startIndex && index < startIndex + PAGE_SIZE
-  )
+  );
 
   useEffect(() => {
-    setSelectedPage(1)
-  }, [list])
+    setSelectedPage(1);
+  }, [list]);
 
   return (
     <div>
       <List className={classes.root}>
-        {items.map((poi, index) => (
+      {items.length === 0 ? (<Alert severity="warning">Δε βρέθηκαν αποτελέσματα</Alert>) 
+      :  items.map((poi, index) => (
           <>
             <ListItem
               alignItems="flex-start"
               button
-              onClick={() => onPoiClick(poi)}>
+              onClick={() => onPoiClick(poi)}
+            >
               <ListItemAvatar>
-                <Avatar alt={poi.name}>{poi.name[0]}</Avatar>
+                <Avatar src={!poi.image} className="classes.avatar">
+                  {poi.name.charAt(0)}
+                </Avatar>
               </ListItemAvatar>
               <ListItemText
                 primary={poi.name}
@@ -62,13 +67,22 @@ export default function PoiInfoList(props) {
                       component="span"
                       variant="body2"
                       className={classes.inline}
-                      color="textPrimary">
-                      {poi.desc}
+                      color="textPrimary"
+                    >
+                      <ShowMoreText
+                        lines={2}
+                        more="Show More"
+                        less="Show Less"
+                        expanded={false}
+                        width={300}
+                      >
+                        {poi.desc}
+                      </ShowMoreText>
                     </Typography>
                     <br />
                     {poi.link && (
                       <>
-                        more info in{" "}
+                        Visit Site{" "}
                         <a href={poi.link} target="_blank">
                           here
                         </a>
@@ -92,5 +106,5 @@ export default function PoiInfoList(props) {
         onChange={(e, page) => setSelectedPage(page)}
       />
     </div>
-  )
+  );
 }

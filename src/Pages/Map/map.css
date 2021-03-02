@@ -41,3 +41,8 @@
    margin-top: 40px;
 
 }
+.Alert_msg{
+   width: auto;
+   height: fit-content;
+   font-size: 1 em;
+}
