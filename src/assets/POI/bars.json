@@ -9,7 +9,7 @@
       "address": "Αρκολεων 13",
       "city": "HER",
       "link": "http://www.swingthing.gr/gallery",
-      "image": "src/assets/cities/Ag.Nikolaos.jpg"
+      "image": "/cities/Ag.Nikolaos.jpg"
     },
     {
       "id":   2,
@@ -21,7 +21,7 @@
       "address": "3 Καπετάν Χαραλάμπη",
       "city": "HER",
       "link": "https://el-gr.facebook.com/opuswbc/",
-      "image": "src/assets/cities/Heraklion.png"
+      "image": "/cities/Heraklion.png"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "address": "Μιλάτου 10",
       "city": "HER",
       "link": "http://www.xalavro.gr/",
-      "image": "src/assets/cities/Rethymno.png"
+      "image": "/cities/Rethymno.png"
     },
     {
       "id":  4,
@@ -45,7 +45,7 @@
       "address": "Κοραή 14",
       "city": "HER",
       "link": "",
-      "image": "src/assets/cities/Chania.jpg"
+      "image": "/cities/Chania.jpg"
     },
     {
       "id": 5,
