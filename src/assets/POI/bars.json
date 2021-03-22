@@ -134,20 +134,9 @@
       "address": "Δασκαλάκη 1",
       "city": "RETH",
       "link": "https://theroofreth.wixsite.com/roof"
-    },
+    },      
     {
       "id": 13,
-      "lat": 35.375426044522825,    
-      "lng": 24.47382841867279,
-      "type": "BARS",
-      "name": "Voustasia Coctail bar",
-      "desc": "Cocktail Bar",
-      "address": "Λεωφ. Εμμανουήλ Κεφαλογιάννη 20",
-      "city": "RETH",
-      "link": "https://www.instagram.com/voustasia_cocktail_bar/?hl=en"
-    },
-    {
-      "id": 14,
       "lat": 35.3693371810023,     
       "lng": 24.499234301787652,
       "type": "BARS",
@@ -158,7 +147,7 @@
       "link": "https://www.facebook.com/boraborareth/"
     },
     {
-      "id": 15,
+      "id": 14,
       "lat": 35.36883015059175,      
       "lng": 24.476928984200143,
       "type": "BARS",
@@ -169,7 +158,7 @@
       "link": "https://www.facebook.com/Chaplinspubcafe-408169002597884/"
     },
     {
-      "id": 16,
+      "id": 15,
       "lat": 35.367350372045046,       
       "lng": 24.47946482741856,
       "type": "BARS",
@@ -178,5 +167,258 @@
       "address": "Ελ.Βενιζέλου 5",
       "city": "RETH",
       "link": "https://livingroom.gr/"
+    },
+    {
+      "id": 16,
+      "lat": 35.370066904182025,        
+      "lng": 24.476508784200178,
+      "type": "BARS",
+      "name": "Minibar ",
+      "desc": "Club",
+      "address": "Ι. Πετιχάκη 6",
+      "city": "RETH",
+      "link": ""
+    },
+    {
+      "id": 17,
+      "lat": 35.37078174982861,        
+      "lng": 24.4744954535139,
+      "type": "BARS",
+      "name": "ice club ",
+      "desc": "Club",
+      "address": "Σαλαμίνος 22",
+      "city": "RETH",
+      "link": ""
+    },
+    {
+      "id": 18,
+      "lat": 35.365453966695725,        
+      "lng": 24.453426725431232,
+      "type": "BARS",
+      "name": "Cavo",
+      "desc": "Bar-Restaurant",
+      "address": "Ακρωτηρίου 13",
+      "city": "RETH",
+      "link": "https://cavorethymno.gr/"
+    },
+    {
+      "id": 19,
+      "lat": 35.367949161951294,        
+      "lng":  24.47340199769265,
+      "type": "BARS",
+      "name": "Ο κήπος του Αλή Βαφή",
+      "desc": "Bar-Cafe",
+      "address": "Τζανέ Μπουνιαλή 65",
+      "city": "RETH",
+      "link": "https://m.facebook.com/alivafis/?locale2=el_GR"
+    },
+    {
+      "id": 20,
+      "lat": 35.36747417392718,         
+      "lng":  24.47890486892113,
+      "type": "BARS",
+      "name": "Queens Room",
+      "desc": "Bar",
+      "address": "Ελεϋθερίου Βενιζέλου 11",
+      "city": "RETH",
+      "link": "https://queensroom.gr/en/"
+    },
+    {
+      "id": 21,
+      "lat": 35.51827890993396,         
+      "lng": 24.01538304476016,
+      "type": "BARS",
+      "name": "Fagotto Jazz Bar",
+      "desc": "Jazz-Bar",
+      "address": "Αγγέλου 16",
+      "city": "CHQ",
+      "link": "https://de-de.facebook.com/Fagotto-Jazz-Bar-Chania-508196042653755/"
+    },
+    {
+      "id": 22,
+      "lat":  35.51824390698031,          
+      "lng":  24.020560666440307,
+      "type": "BARS",
+      "name": "The Conor Pass",
+      "desc": "Bar-Irish Pub",
+      "address": "Πλ. Κατεχάκη",
+      "city": "CHQ",
+      "link": ""
+    },
+    {
+      "id": 23,
+      "lat": 35.51664818591251,          
+      "lng": 24.017587136855738,
+      "type": "BARS",
+      "name": "Avalon Rock Pub",
+      "desc": "Bar",
+      "address": "Ακτή Κουντουριώτη 3",
+      "city": "CHQ",
+      "link": "https://avalon-rock-pub-chania.business.site/"
+    },
+    {
+      "id": 24,
+      "lat": 35.51680424675661,          
+      "lng": 24.018466649646818,
+      "type": "BARS",
+      "name": "Epea Pteroenta",
+      "desc": "Bar",
+      "address": "Κανεβάρο 17-19",
+      "city": "CHQ",
+      "link": ""
+    },
+    {
+      "id": 25,
+      "lat": 35.51713980418393,        
+      "lng": 24.018206592462555,
+      "type": "BARS",
+      "name": "ROOM",
+      "desc": "club",
+      "address": "Σουρμελής 14",
+      "city": "CHQ",
+      "link": ""
+    },
+    {
+      "id": 26,
+      "lat": 35.51559243674194,          
+      "lng": 24.021012240025215,
+      "type": "BARS",
+      "name": "Το Μοναστήρι του Καρόλου",
+      "desc": "Cocktail-Bar",
+      "address": "Χατζιμιχαλη Νταλιάνη 22",
+      "city": "CHQ",
+      "link": "https://www.facebook.com/%CE%A4%CE%BF-%CE%9C%CE%BF%CE%BD%CE%B1%CF%83%CF%84%CE%AE%CF%81%CE%B9-%CF%84%CE%BF%CF%85-%CE%9A%CE%B1%CF%81%CF%8C%CE%BB%CE%BF%CF%85-The-Monastery-of-Karolos-374272224322/"
+    },
+    {
+      "id": 27,
+      "lat": 35.36747417392718,         
+      "lng":  24.47890486892113,
+      "type": "BARS",
+      "name": "Peacock Tail Bar",
+      "desc": "Cocktail-Bar",
+      "address": "Κανεβάρο 7A",
+      "city": "CHQ",
+      "link": ""
+    },
+    {
+      "id": 28,
+      "lat": 35.51696294613676,          
+      "lng": 24.01815324603357,
+      "type": "BARS",
+      "name": "DNA Night Club",
+      "desc": "Club",
+      "address": "Σουρμελής 6",
+      "city": "CHQ",
+      "link": ""
+    },
+    {
+      "id": 29,
+      "lat": 35.51704207109872,          
+      "lng": 24.0182012850522,
+      "type": "BARS",
+      "name": "KLIK ",
+      "desc": "Bar",
+      "address": "Σουρμελής 2",
+      "city": "CHQ",
+      "link": "https://www.instagram.com/klikbar_chania/?utm_source=ig_profile_share&igshid=1kkwwai2acz0z"
+    },
+    {
+      "id": 30,
+      "lat": 35.51616880052469,          
+      "lng": 24.0167528922226,
+      "type": "BARS",
+      "name": "Συναγωγή",
+      "desc": "Cocktail-Bar",
+      "address": "Παρ. Κονδυλάκη",
+      "city": "CHQ",
+      "link": ""
+    },
+    {
+      "id": 31,
+      "lat": 35.190271666814056,      
+      "lng": 25.720054114382357,
+      "type": "BARS",
+      "name": "Irish Bar 'Rob's Corner' ",
+      "desc": "Bar-Irish Pub",
+      "address": "M, Σφακιανάκη 7",
+      "city": "AGN",
+      "link": ""
+    },
+    {
+      "id": 32,
+      "lat": 35.190360143163076,      
+      "lng": 25.71857453269732,
+      "type": "BARS",
+      "name": "Ελληνάδικο",
+      "desc": "Bar-Club",
+      "address": "25ης Μαρτίου 8",
+      "city": "AGN",
+      "link": "https://el-gr.facebook.com/ellinadiko-224439684235410/"
+    },
+    {
+      "id": 33,
+      "lat": 35.19242301159232,     
+      "lng": 25.721203211154002,
+      "type": "BARS",
+      "name": "YANNIS",
+      "desc": "Rock Bar",
+      "address": "Κούνδουρου 3, Αγ. Νικόλαος 721 00",
+      "city": "AGN",
+      "link": "https://www.facebook.com/yannisrockbar/?rf=254075391276955"
+    },
+    {
+      "id": 34,
+      "lat": 35.192072297585085,      
+      "lng": 25.718671205911136,
+      "type": "BARS",
+      "name": "Alexandros Roof",
+      "desc": "Cocktail Bar",
+      "address": "3, Κονδυλάκη 1",
+      "city": "AGN",
+      "link": "https://www.facebook.com/alexandrosroofgarden/"
+    },
+    {
+      "id": 35,
+      "lat": 35.190999417708944,      
+      "lng": 25.71850146803715,
+      "type": "BARS",
+      "name": "Περίπου",
+      "desc": "Bar-cafe",
+      "address": "28ης Οκτωβρίου 25",
+      "city": "AGN",
+      "link": "https://www.facebook.com/peripoulivemusicbar/"
+    },
+    {
+      "id": 36,
+      "lat": 35.19066077236136,     
+      "lng": 25.7180369693138,
+      "type": "BARS",
+      "name": "cafe Du Lac Bar ",
+      "desc": "bar-cafe",
+      "address": "28ης Οκτωβρίου 17",
+      "city": "AGN",
+      "link": "https://www.facebook.com/dulaccafebar/"
+    },
+    {
+      "id": 37,
+      "lat": 35.193318921793484,     
+      "lng": 25.718824222744797,
+      "type": "BARS",
+      "name": "AQUARIUS",
+      "desc": "Bar",
+      "address": "Ακτή Κούνδουρου 7, Καντανολέοντος 23",
+      "city": "AGN",
+      "link": "https://www.facebook.com/AquariusCrete/"
+    },
+    {
+      "id": 38,
+      "lat": 35.19164401384876,      
+      "lng": 25.720938777889153,
+      "type": "BARS",
+      "name": "Bajamar",
+      "desc": "Cocktail Bar-Cafe",
+      "address": "Σαρολίδη 1",
+      "city": "AGN",
+      "link": ""
     }
   ]

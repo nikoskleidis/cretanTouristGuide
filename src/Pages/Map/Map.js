@@ -39,7 +39,7 @@ const cityOptions = [
   { value: "DEFAULT", label: "All" },
   { value: "HER", label: "Ηράκλειο" },
   { value: "CHQ", label: "Χανιά" },
-  { value: "RETH", label: "Ρεθυμνο" },
+  { value: "RETH", label: "Ρέθυμνο" },
   { value: "AGN", label: "Αγ. Νικόλαος" }
 ]
 
@@ -77,7 +77,7 @@ const cityLocations = {
       lat: 35.0,
       lng: 25.0
     },
-    zoom: 9
+    zoom: 8.8
   }
 }
 

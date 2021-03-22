@@ -124,7 +124,7 @@
   {
     "id":   12,
     "lat":  35.36599336534342, 
-    "lng": 24.517274141871557,
+    "lng":  24.517274141871557,
     "type": "RESTAURANT",
     "name": "Ταβέρνα του Ζήση",
     "desc": "Ταβέρνα",
@@ -205,7 +205,7 @@
     "lng": 24.474623540021163,
     "type": "RESTAURANT",
     "name": "Τυράκι",
-    "desc": "Υγιεινό φαγητό με αγνά προϊόντα οικολογικής γεωργίας και ηθικού εμπορίου.",
+    "desc": "Σαντουιτσάδικο",
     "address": "Εμμανουήλ Βερνάδου 5",
     "city": "RETH",
     "link": "https://www.facebook.com/%CE%A4%CF%85%CF%81%CE%B1%CE%BA%CE%B9-1636128353274791/"
@@ -220,6 +220,226 @@
     "address": "Σαλαμίνος 12",
     "city": "RETH",
     "link": "https://www.barbq.gr/menu/"
+  },
+  {
+    "id": 21,
+    "lat":  35.51862505072971,
+    "lng":  24.019509039556464,
+    "type": "RESTAURANT",
+    "name": "Τα Χάλκινα",
+    "desc": "Εστιατόριο",
+    "address": "Ακτή Τομπάζη 29-30",
+    "city": "CHQ",
+    "link": "https://chalkina.com/el/%ce%b1%cf%81%cf%87%ce%b9%ce%ba%ce%ae/"
+  },
+  {
+    "id": 22,
+    "lat":  35.518459133323574, 
+    "lng":  24.018618546187156,
+    "type": "RESTAURANT",
+    "name": "ΠΑΛΛΑΣ",
+    "desc": "Εστιατόριο-Μεσογειακή Κουζίνα",
+    "address": "Ακτή Τομπάζη 15,",
+    "city": "CHQ",
+    "link": "https://www.pallaschania.gr/"
+  },
+  {
+    "id": 23,
+    "lat":  35.51798539356853, 
+    "lng":  24.02032174885801,
+    "type": "RESTAURANT",
+    "name": "Kariatis Restaurant",
+    "desc": "Ιταλικό Εστιατόριο",
+    "address": "Κατεχάκη 12. Παλαιό Λιμάνι",
+    "city": "CHQ",
+    "link": "https://www.facebook.com/RestaurantKariatis/"
+  },
+  {
+    "id": 24,
+    "lat":  35.517774529196465, 
+    "lng":  24.016004857657027,
+    "type": "RESTAURANT",
+    "name": "Αρισμαρί από την κρητική γη",
+    "desc": "Εστιατόριο-Κρητική Κουζίνα",
+    "address": "Ακτή Κουντουριώτη 55",
+    "city": "CHQ",
+    "link": "http://www.arismarichania.gr/"
+  },
+  {
+    "id": 25,
+    "lat": 35.51740416916072,
+    "lng": 24.020863948091193,
+    "type": "RESTAURANT",
+    "name": "Pork to Beef Wild",
+    "desc": "Ψητοπωλείο-Street food",
+    "address": "Δασκαλογιάννη 68",
+    "city": "CHQ",
+    "link": "https://www.facebook.com/porktobeefwild/?ref=nf"
+  },
+  {
+    "id": 26,
+    "lat": 35.515980748286545, 
+    "lng": 24.018556259859917,
+    "type": "RESTAURANT",
+    "name": "Στέκι",
+    "desc": "Εστιατόριο-Ταβέρνα",
+    "address": "Αγ. Δέκα 3",
+    "city": "CHQ",
+    "link": "https://www.stekirestaurant.com/"
+  },
+  {
+    "id": 27,
+    "lat":  35.51642184863527,
+    "lng":  24.020017297552045,
+    "type": "RESTAURANT",
+    "name": "Αδέσποτο",
+    "desc": "Εστιατόριο-Μουσική Ταβέρνα",
+    "address": "Σήφακα & Μελχισεδέκ (γωνία)",
+    "city": "CHQ",
+    "link": "http://www.adespotochania.gr/el/"
+  },
+  {
+    "id": 28,
+    "lat":  35.51229658526535,
+    "lng":  24.01789388545982,
+    "type": "RESTAURANT",
+    "name": "Το Σουβλάκι Όπως Παλιά",
+    "desc": "Ψητοπωλείο",
+    "address": "Κων/νου Σφακιανάκη 10",
+    "city": "CHQ",
+    "link": "https://www.facebook.com/tosouvlakiopospalia"
+  },
+  {
+    "id": 29,
+    "lat":  35.50460454237209,
+    "lng":  4.019156539060813,
+    "type": "RESTAURANT",
+    "name": "Θράκα",
+    "desc": "Ψητοπωλείο-Μπριζολάδικο",
+    "address": "Αναγνώστου Γογονή 77",
+    "city": "CHQ",
+    "link": "https://thraka.com/"
+  },
+  {
+    "id": 30,
+    "lat":  35.5183849593329, 
+    "lng":  24.023510310730877,
+    "type": "RESTAURANT",
+    "name": "Fu asian bistro",
+    "desc": "Εστιατόριο-Κινέζικη Κουζίνα",
+    "address": "Επιμενίδου 13",
+    "city": "CHQ",
+    "link": "https://www.foodbooking.com/ordering/restaurant/menu?company_uid=d00d748b-9aef-4a6d-9c0c-641dda2cc45d&restaurant_uid=0bdee62b-0bbf-4159-8fb8-836ab333f7c0&facebook=true"
+  },
+  {
+    "id": 31,
+    "lat":  35.18769379555343,  
+    "lng":  25.714611497272482,
+    "type": "RESTAURANT",
+    "name": "Πόρτες",
+    "desc": "Μεζεδοπωλείο-Ταβέρνα",
+    "address": "Αναπαύσεως 3",
+    "city": "AGN",
+    "link": "https://el-gr.facebook.com/pages/category/Greek-Restaurant/%CE%A0%CF%8C%CF%81%CF%84%CE%B5%CF%82-%CE%9C%CE%B5%CE%B6%CE%B5%CE%B4%CE%BF%CF%80%CF%89%CE%BB%CE%B5%CE%AF%CE%BF-Portes-Mezedopolio-1540996569450600/"
+  },
+  {
+    "id": 32,
+    "lat":  35.192075445538805,  
+    "lng":  25.717686053970706,
+    "type": "RESTAURANT",
+    "name": "Καρνάγιο / Πίτα του Ρήγα",
+    "desc": "Εστιατόριο",
+    "address": "Κων/νου Παλαιολόγου 24",
+    "city": "AGN",
+    "link": "https://el-gr.facebook.com/pitatouriga/"
+  },
+  {
+    "id": 33,
+    "lat":  35.18997347254419, 
+    "lng":  25.720723668526794,
+    "type": "RESTAURANT",
+    "name": "Maistrali Ouzeri",
+    "desc": "Εστιατόριο-Θαλασσινά",
+    "address": "Ακτή Πάπα Νικολάου Πάγκαλου 10",
+    "city": "AGN",
+    "link": "https://www.facebook.com/Maistrali-501184330040934/"
+  },
+  {
+    "id": 34,
+    "lat":  35.18764994965751,  
+    "lng":  25.715600966769472,
+    "type": "RESTAURANT",
+    "name": "Basilico Ristorante",
+    "desc": "Εστιατόριο",
+    "address": "Ακτη Νεάρχου 3",
+    "city": "AGN",
+    "link": "https://el-gr.facebook.com/www.basilicopizza.gr/"
+  },
+  {
+    "id": 35,
+    "lat":  35.19813621513822, 
+    "lng":  25.712854384811106,
+    "type": "RESTAURANT",
+    "name": "Πιάτο",
+    "desc": "Ελληνικό Εστιατόριο",
+    "address": "Μίνωος 5, Αγ. Νικόλαος 721 00",
+    "city": "AGN",
+    "link": "https://www.facebook.com/piato.gr/"
+  },
+  {
+    "id": 36,
+    "lat":  35.190719927210814,  
+    "lng":  25.717808753970708,
+    "type": "RESTAURANT",
+    "name": "Skala",
+    "desc": "Εστιατόριο-Fusion Ταβέρνα",
+    "address": "Ομήρου 14",
+    "city": "AGN",
+    "link": "http://skalataverna.gr/index.html"
+  },
+  {
+    "id": 37,
+    "lat":  35.19195875935571,  
+    "lng":  25.717976519018897,
+    "type": "RESTAURANT",
+    "name": "Palermo",
+    "desc": "Ιταλικό Εστιατόριο",
+    "address": "Κων/νου Παλαιολόγου 26",
+    "city": "AGN",
+    "link": "https://el-gr.facebook.com/pages/category/Interest/Pizza-grillhouse-Palermo-347677495738404/"
+  },
+  {
+    "id": 38,
+    "lat":  35.19018913113652,  
+    "lng":  25.71630930978989,
+    "type": "RESTAURANT",
+    "name": "Xylaki",
+    "desc": "Burger-Ψητοπωλείο",
+    "address": "Κοντογιάννη 11",
+    "city": "AGN",
+    "link": "https://www.facebook.com/xylaki/"
+  },
+  {
+    "id": 39,
+    "lat":  35.194524086815655,  
+    "lng":  25.717668015882804,
+    "type": "RESTAURANT",
+    "name": "BBQ stories",
+    "desc": "Εστιατόριο-Ψητοπωλείο",
+    "address": "Ακτή Στυλιανού, Κούνδουρου 12",
+    "city": "AGN",
+    "link": "https://bbq-stories.business.site/?utm_source=gmb&utm_medium=referral"
+  },
+  {
+    "id": 40,
+    "lat":  35.19122488034215, 
+    "lng":   25.719642113971233,
+    "type": "RESTAURANT",
+    "name": "Rice and noodles",
+    "desc": "Εστιατόριο-Κινέζικη Κουζίνα",
+    "address": "Πασιφαης",
+    "city": "AGN",
+    "link": ""
   }
 ]
 

@@ -82,8 +82,7 @@ export default function PoiInfoList(props) {
                           lines={2}
                           more="Show More"
                           less="Show Less"
-                          expanded={false}
-                          width={300}>
+                          expanded={false}>
                           {poi.desc}
                         </ShowMoreText>
                       </Typography>
